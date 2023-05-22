@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+body{
+  background:#FFC0CB;
+}
+h1, .btn, nav, form{
+  font-family: 'Spirax', cursive;
+  
+}
+h1{
+  text-decoration: underline;
+}
+h2, p{
+  font-family: 'Quattrocento', serif;
+}
+
+nav{
+    position: fixed;
+    font-size: 20px;
+}
+.navbar-brand{
+  font-size: 40px;
+}
+
+nav li{
+ text-decoration: none;
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+  }
+  .display-3{
+      font-weight: bold;
+      font-size: 100px;
+     
+  }
+  #jumbo>h1{
+    color: #FFC0CB;
+  }  #jumbo>p{
+    color: #FFC0CB;
+  }
+  .cart{
+    font-size: 30px;
+    color: black;
+  }.iconss{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+  }.blog-footer{
+    padding: 2.5rem 0;
+color: #727272;
+text-align: center;
+border-top: .05rem solid #e5e5e5;
+  }
+  .socials{
+    font-size: 40px;
+  }
